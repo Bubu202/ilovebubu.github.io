@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box sizing: border-box;
+ }
+ header{
+    padding: 1%;
+    background-color:#84def0;
+    color:#960069;
+ } 
