@@ -7,3 +7,57 @@
     background-color:#84def0;
     color:#960069;
  } 
+ nav{
+    display: flex;
+    flex-direction: row
+    backgrouond-color: #fffaad;
+    width: 30%
+ }
+ main{
+    width: 70%
+    height: 100vh;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+ }
+ main*{
+    margin: 2% 0
+ }
+ nav ul{
+    padding-left: 0;
+    list-style: none;
+ }
+ nav li{
+    border 5px solid #f0fdff;
+    width: 80%;
+    margin: 5% auto;
+    padding: 1%
+    text-align: center;
+ }
+ nav a{
+    text-decoration: none;
+    font-size: calc(2px + 1.3vw);
+ }
+ #buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+ }
+ @media screen and (max-width: 1000px){
+    #nav-main{
+        flex-direction: column;
+    }
+    #nav,main{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
