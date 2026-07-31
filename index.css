@@ -7,6 +7,17 @@
     background-color:#84def0;
     color:#960069;
  } 
+ #container{
+    background-color: #fffaad;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+ }
+ #nav-main{
+    width: 100%
+    display: flex;
+    flex-direction: row;
+ }
  nav{
     display: flex;
     flex-direction: row;
@@ -36,6 +47,17 @@
  nav a{
     text-decoration: none;
     font-size: calc(2px + 1.3vw);
+ }
+ #picts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100;
+    margin: 5% 0;
+ }
+ main img{
+    max-width: 40%
  }
  #buttons{
     display: flex;
